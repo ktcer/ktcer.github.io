@@ -2,13 +2,13 @@
 layout: page
 title: About
 description: 打码改变世界
-keywords: Zhuang Ma, 马壮
+keywords: kuangtiecheng, 旷 铁成
 comments: true
 menu: 关于
 permalink: /about/
 ---
 
-我是马壮，码而生，码而立。
+我是旷铁成，码而生，码而立。
 
 仰慕「优雅编码的艺术」。
 
@@ -16,15 +16,15 @@ permalink: /about/
 
 * 熟能生巧
 * 努力改变人生
+* 一切的成功都源于一个梦想和毫无依据的自信，坚持就是胜利。
 
 ## 联系
 
-* GitHub：[@mzlogin](https://github.com/mzlogin)
-* LinkedIn：[@mazhuang](https://www.linkedin.com/in/mazhuang)
+* GitHub：[@ktcer](https://github.com/ktcer)
+* LinkedIn：[@旷铁成](http://www.linkedin.com/in/铁成-旷-4aba7295?trk=nav_responsive_tab_profile)
 * 博客：[{{ site.title }}]({{ site.url }})
-* 微博: [@mzlogin](http://weibo.com/mzlogin)
-* 知乎: [@mzlogin](http://www.zhihu.com/people/mzlogin)
-* 豆瓣: [@壮哥不胖](http://www.douban.com/people/freedim)
+* 微博: [@旷铁成](http://weibo.com/旷铁成)
+* CSDN: [@kktc2013](http://my.csdn.net/qq_19827707)
 
 ## Skill Keywords
 
