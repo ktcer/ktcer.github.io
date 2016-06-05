@@ -2,26 +2,26 @@
 #   Main Configs   #
 # ---------------- #
 baseurl:
-url: http://mazhuang.org
+url: http://ktcer.com
 date_format: "ordinal"
-title: 码志
-subtitle: "打码改变人生"
-description: "马壮的个人博客"
+title: 技术成就梦想
+subtitle: "一切的成功都源于一个梦想和毫无依据的自信，坚持就是胜利。"
+description: "ktcer的个人博客"
 keywords: 码志, Zhuang Ma, mzlogin, mazhuang
 favicon: /favicon.ico
-timezone: Asia/Shanghai
+timezone: Asia/Beijing
 encoding: "utf-8"
-source_code: https://github.com/mzlogin/mzlogin.github.io
+source_code: https://github.com/ktcer/ktcer.github.io
 side_bar_repo_limit: 5
 
 # ---------------- #
 #      Author      #
 # ---------------- #
-author: Zhuang Ma
-organization: Sogou, Inc.
-organization_url: https://www.sogou.com
+author: kuangtiecheng
+organization: 北京邮电大学, Inc.
+organization_url: https://www.buptcom
 location: Beijing, China
-email: chumpma@gmail.com
+email: kuagtiecheng68@163.com
 
 # ---------------- #
 #    Navigation    #
@@ -80,12 +80,12 @@ collections:
 # ---------------- #
 #      Socials     #
 # ---------------- #
-github_username: mzlogin
+github_username: ktcer
 douban_username: freedim
-facebook_username: mzlogin
-weibo_username: mzlogin
-zhihu_username: mzlogin
-twitter_username: mzlogin
+facebook_username: ktcer
+weibo_username: ktcer
+zhihu_username: ktcer
+twitter_username: ktcer
 
 # ---------------- #
 #      Comments    #
@@ -94,8 +94,8 @@ twitter_username: mzlogin
 comments_provider: disqus
 # !!!重要!!! 请修改下面两个用户名为你自己申请的
 # !!!Important!!! Please modify usernames below to yours
-duoshuo_username: mazhuang
-disqus_username: mzlogin
+duoshuo_username: ktcer
+disqus_username: ktcer
 
 # ---------------- #
 #      Datas       #
