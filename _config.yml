@@ -7,7 +7,7 @@ date_format: "ordinal"
 title: 技术成就梦想
 subtitle: "一切的成功都源于一个梦想和毫无依据的自信，坚持就是胜利。"
 description: "ktcer的个人博客"
-keywords: 码志, Zhuang Ma, mzlogin, mazhuang
+keywords: ktcerr kuangtiecheng, ktc2013, buptkuang
 favicon: /favicon.ico
 timezone: Asia/Beijing
 encoding: "utf-8"
@@ -19,7 +19,7 @@ side_bar_repo_limit: 5
 # ---------------- #
 author: kuangtiecheng
 organization: 北京邮电大学, Inc.
-organization_url: https://www.buptcom
+organization_url: http://write.blog.csdn.net/postlist
 location: Beijing, China
 email: kuagtiecheng68@163.com
 
@@ -81,11 +81,9 @@ collections:
 #      Socials     #
 # ---------------- #
 github_username: ktcer
-douban_username: freedim
-facebook_username: ktcer
-weibo_username: ktcer
+weibo_username: 旷铁成
 zhihu_username: ktcer
-twitter_username: ktcer
+
 
 # ---------------- #
 #      Comments    #
