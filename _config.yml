@@ -2,9 +2,9 @@
 #   Main Configs   #
 # ---------------- #
 baseurl:
-url:http://ktcer.github.io/
+url: http://ktcer.github.io/
 date_format: "ordinal"
-title: "铁矿"
+title: 铁矿
 subtitle: "一切的成功都源于一个梦想和毫无依据的自信，坚持就是胜利。"
 description: "ktcer的个人博客"
 keywords: ktcerr kuangtiecheng, ktc2013, buptkuang
