@@ -24,7 +24,7 @@ permalink: /about/
 * LinkedIn：[@旷铁成](http://www.linkedin.com/in/铁成-旷-4aba7295?trk=nav_responsive_tab_profile)
 * 博客：[{{ site.title }}]({{ site.url }})
 * 微博: [@旷铁成](http://weibo.com/旷铁成)
-* CSDN: [@kktc2013](http://my.csdn.net/qq_19827707)
+* CSDN: [@ktc2013](http://my.csdn.net/qq_19827707)
 
 ## Skill Keywords
 
