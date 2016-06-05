@@ -1,7 +1,7 @@
-码志
+ #旷铁成blog
 =================
 
-我的个人博客：<http://mazhuang.org>，外观基于 [DONGChuan](http://dongchuan.github.io) 修改，感谢！
+我的个人博客：<http://ktcer.github.io>，外观基于 [DONGChuan](http://dongchuan.github.io) 修改，感谢！
 
 欢迎 Star 和 Fork。
 
