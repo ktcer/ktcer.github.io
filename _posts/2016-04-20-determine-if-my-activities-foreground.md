@@ -8,7 +8,7 @@ keywords: Android, Activity, Foreground
 
 本文记录的是一种判断当前激活的 Activity 是否属于本进程的方法。
 
-**约定：文中表述说一个 Activity 处于激活状态是指它是屏幕上当前展示的 Activity，且没有被 Dialog 覆盖。**
+**约定：文中表述说一个 Activity 处于激活状态是指它是屏幕上当前展示的 Activity，且  没有被 Dialog 覆盖。**
 
 ## 原理
 
