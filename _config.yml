@@ -100,4 +100,4 @@ disqus_username: ktcer
 # ---------------- #
 skill_software_keywords: [Java, C++, Python, Design Patterns]
 skill_mobile_app_keywords: [Android, Reverse Engineering]
-skill_whole_stack _keywords: [ImageRecognition, Machineearning, Spark, Hadoop, Unity3D]
+skill_whole_stack_keywords: [ImageRecognition, Machineearning, Spark, Hadoop, Unity3D]
