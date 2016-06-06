@@ -6,6 +6,8 @@ description: 美团android  多渠道快速打包解决方案。
 keywords: apk,Android
 ---
 
+先看一下引发我追究一下 printf 和栈桢等相关知识的一段简单的程序：
+
 本文是对android多渠道快速打包的笔记和验证。
 
 
