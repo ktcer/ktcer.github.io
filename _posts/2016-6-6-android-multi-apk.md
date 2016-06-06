@@ -2,7 +2,7 @@
 layout: post
 title: android多渠道快速打包
 categories: Android
-description: 美团。
+description: 美团android多渠道快速打包解决方案
 keywords: Android, apk, Foreground
 ---
 
