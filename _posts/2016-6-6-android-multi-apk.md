@@ -113,8 +113,10 @@ java代码读取渠道名的方法：
 
 ## 第二步：设置python脚本并把封装好的类放到工程里 
 好心人已经把运行的打包脚本写好了，并且也封装了读取渠道号的实体工具类。大家只需要去github上下载即可。
-地址：[https://github.com/GavinCT/AndroidMultiChannelBuildTool](https://github.com/GavinCT/AndroidMultiChannelBuildTool "https://github.com/GavinCT/AndroidMultiChannelBuildTool")
-当然在github上也有相关的使用介绍，非常简单，一看就懂。这里简单说下，下载下来有个`ChannelUtil.java`类，里面封装好了获取渠道号的方法，你只需要在启动应用程序的地方调用友盟的设置代码即可，比如：`AnalyticsConfig.setChannel(ChannelUtil.getChannel(this))`。
+地址：[https://github.com/GavinCT/AndroidMultiChannelBuildTool](https://github.com/GavinCT/AndroidMultiChannelBuildTool
+"https://github.com/GavinCT/AndroidMultiChannelBuildTool")
+当然在github上也有相关的使用介绍，非常简单，一看就懂。这里简单说下，下载下来有个`ChannelUtil.java`类，里面封装好了获取渠道号的方法，你
+只需要在启动应用程序的地方调用友盟的设置代码即可，比如：`AnalyticsConfig.setChannel(ChannelUtil.getChannel(this))`。
 
 
 ## 第三步：配置渠道列表 
@@ -122,12 +124,16 @@ java代码读取渠道名的方法：
 
 
 第四步：复制签好名的包，运行脚本
-你把你已经签名打包好的apk文件，复制到PythonTool目录下和`MultiChannelBuildTool.py`这个脚本同级，直接双击点击`MultiChannelBuildTool.py`即可完成打包。
+你把你已经签名打包好的apk文件，复制到PythonTool目录下和`MultiChannelBuildTool.py`这个脚本同级，直接双击点击`MultiChannelBuildTool.py`
+即可完成打包。
 
-ok，到这里基本就讲完了，讲了讲原理，又讲了讲实践方式，鉴于别人都给你造好轮子了，所以使用起来非常简单，赶紧去试一试吧。如果不明白的可以留言，欢迎一起交流。
+ok，到这里基本就讲完了，讲了讲原理，又讲了讲实践方式，鉴于别人都给你造好轮子了，所以使用起来非常简单，赶紧去试一试吧。如果不明白的可以
+留言，欢迎一起交流。
 
 
 推荐文章：
 
-[Android Studio 使用Gradle多渠道打包](http://mp.weixin.qq.com/s?__biz=MjM5NDkxMTgyNw==&mid=2653057549&idx=1&sn=456fa138f2fd307a3ff94eddc5ff2e73&scene=21#wechat_redirect)
+[Android Studio 使用Gradle多渠道打包](http://mp.weixin.qq.com/s?__biz=MjM5NDkxMTgyNw==&mid=2653057549&idx=1&sn=456fa138f2fd307a3ff94ed
+dc5ff2e73&scene=21#wechat_redirect)
+
 
