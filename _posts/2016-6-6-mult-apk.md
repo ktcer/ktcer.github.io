@@ -6,9 +6,9 @@ description: 美团android  多渠道快速打包解决方案。
 keywords: apk,Android
 ---
 
-先看一下引发我追究一下 printf 和栈桢等相关知识的一段简单的程序：
-
 本文是对android多渠道快速打包的笔记和验证。
+
+
 
 
 Andorid渠道市场有多分散呢？分散到比`Android`碎片化还严重，你还在为多渠道打包而头疼吗？美团提供了速度快到白驹过隙的多渠道打包方案。说的
