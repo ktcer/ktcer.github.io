@@ -57,9 +57,9 @@ permalink: /about/
 
 * 1.学习网站
 
-**** 官网：[官网](https://developer.android.com/index.html)
-**** 源码: [源码](http://source.android.com/)
-**** AndroidDevTools: [AndroidDevTools](http://www.androiddevtools.cn/)
+> 官网：[官网](https://developer.android.com/index.html)
+> 源码: [源码](http://source.android.com/)
+> AndroidDevTools: [AndroidDevTools](http://www.androiddevtools.cn/)
 
 
 
