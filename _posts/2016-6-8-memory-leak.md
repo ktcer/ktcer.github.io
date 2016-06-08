@@ -18,8 +18,54 @@ keywords: Android
 
 本文会不定时更新，将自己遇到的内存泄漏相关的问题记录下来并提供解决办法。
 
+内存泄露的原因：
 
+资源对象没关闭。
+如Cursor、File等资源。他们会在finalize中关闭，但这样效率太低。容易造成内存泄露。
+SQLiteCursor，当数据量大的时候容易泄露
+使用Adapter时，没有使用系统缓存的converView。
+即时调用recycle（）释放不再使用的Bitmap。
+适当降低Bitmap的采样率，如：
+```
+BitmapFactory.Options options = newBitmapFactory.Options();    
+options.inSampleSize = 2;//图片宽高都为原来的二分之一，即图片为原来的四分之一    
+Bitmap bitmap =BitmapFactory.decodeStream(cr.openInputStream(uri), null, options); preview.setImageBitmap(bitmap);
 
+```
+
+使用application的context来替代activity相关的context。
+
+这是两种不同的context，也是最常见的两种.第一种中context的生命周期与Application的生命周期相关的，context随着Application的销毁而销毁，伴随application的一生，与activity的生命周期无关.第二种中的context跟Activity的生命周期是相关的，但是对一个Application来说，Activity可以销毁几次，那么属于Activity的context就会销毁多次.至于用哪种context，得看应用场景，个人感觉用Activity的context好一点，不过也有的时候必须使用Application的context.application context可以通过
+Context.getApplicationContext或者Activity.getApplication方法获取.
+还有就是，在使用context的时候，小心内存泄露，防止内存泄露，注意一下几个方面：
+　1. 不要让生命周期长的对象引用activity context，即保证引用activity的对象要与activity本身生命周期是一样的
+　2. 对于生命周期长的对象，可以使用application context
+　3. 避免非静态的内部类，尽量使用静态类，避免生命周期问题，注意内部类对外部对象引用导致的生命周期变化
+尽量避免activity的context在自己的范围外被使用，这样会导致activity无法释放。
+注册没取消造成内存泄露
+如：广播
+集合中的对象没清理造成的内存泄露我们通常把一些对象的引用加入到了集合中，当我们不需要该对象时，并没有把它的引用从集合中清理掉，这样这个集合就会越来越大。如果这个集合是static的话，那情况就更严重了。
+Handler应该申明为静态对象， 并在其内部类中保存一个对外部类的弱引用。如下：
+
+```
+static class MyHandler extends Handler 
+{
+       WeakReference mActivityReference;
+       MyHandler(Activity activity)
+      { 
+            mActivityReference= new WeakReference(activity);
+      }
+     @Override
+     public void handleMessage(Message msg)
+    {
+           final Activity activity = mActivityReference.get();
+           if (activity != null)
+          {
+                 mImageView.setImageBitmap(mBitmap);
+          }    
+     }
+}
+```
 
 1，编写单例的时候常出现的错误。
 
