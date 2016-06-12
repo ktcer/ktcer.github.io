@@ -127,6 +127,8 @@ S0/S1是大小相当的两个区域，共同组成Survivor区。
 
 大对象（比如大的数组）直接进入老年代。阈值设定：-XX:PretenureSizeThreshold。
 
+[更多文章](http://www.oracle.com/webfolder/technetwork/tutorials/obe/java/gc01/index.html )
+
  
 
 #### Perm 永久代（PermanentGeneration）
