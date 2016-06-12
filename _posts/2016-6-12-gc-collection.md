@@ -127,7 +127,7 @@ S0/S1是大小相当的两个区域，共同组成Survivor区。
 
 大对象（比如大的数组）直接进入老年代。阈值设定：-XX:PretenureSizeThreshold。
 
-[更多文章](http://www.oracle.com/webfolder/technetwork/tutorials/obe/java/gc01/index.html )
+
 
  
 
@@ -136,3 +136,6 @@ S0/S1是大小相当的两个区域，共同组成Survivor区。
 用于存放不变对象，如类、方法、字符串等。
 
 Java7把驻留字符串（intentd string）放到了老年代区。Java8中移除了Hotspot的永久代区。
+
+
+[更多文章](http://www.oracle.com/webfolder/technetwork/tutorials/obe/java/gc01/index.html )
