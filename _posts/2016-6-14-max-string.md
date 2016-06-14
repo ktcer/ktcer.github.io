@@ -6,7 +6,7 @@ description: 最长公共子串的文本比较算法。
 keywords: 算法, Needleman/Wunsch
 ---
 
-## 本文介绍基于最长公共子串的文本比较算法——Needleman/Wunsch算法。
+####  本文介绍基于最长公共子串的文本比较算法——Needleman/Wunsch算法。
 
 　　以实例说明：字符串A=kitten，字符串B=sitting
 
@@ -79,7 +79,9 @@ keywords: 算法, Needleman/Wunsch
 　　
 
 　　举例说明：A=GGATCGA，B=GAATTCAGTTA，计算LCS(A,B)
-![这里写图片描述](http://img.blog.csdn.net/20160614093752767)![这里写图片描述](http://img.blog.csdn.net/20160614093629906)![这里写图片描述](http://img.blog.csdn.net/20160614093703860)
+![这里写图片描述](http://img.blog.csdn.net/20160614093752767)
+![这里写图片描述](http://img.blog.csdn.net/20160614093629906)
+![这里写图片描述](http://img.blog.csdn.net/20160614093703860)
 
 　则，LCS(A,B)=LCS(7,11)=6
 
@@ -91,7 +93,7 @@ keywords: 算法, Needleman/Wunsch
 
 　　他们的匹配为：
 
-　　　![这里写图片描述](http://img.blog.csdn.net/20160614094353097)
+![这里写图片描述](http://img.blog.csdn.net/20160614094353097)
 
 　　如上面所示，蓝色表示完全匹配，黑色表示编辑操作，_表示插入字符或者是删除字符操作。如上面所示，蓝色字符有6个，表示最长公共子串长度为6。
 
