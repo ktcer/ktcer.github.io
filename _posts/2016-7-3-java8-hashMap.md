@@ -5,6 +5,7 @@ categories: Java
 description: Java8重新认识HashMap
 keywords: Java, Java集合,HashMap,JDK1.8,扩容,安全
 ---
+## 本文结合JDK1.7和JDK1.8的区别，深入探讨HashMap的结构实现和功能原理。
 
 ## 摘要
 
