@@ -1,9 +1,9 @@
 ---
 layout: post
 title: Java-String之寻根问底 
-categories: java
+categories: Java
 description: Java-String之寻根问底。
-keywords: java
+keywords: Java
 ---
 
 #### Java-String之寻根问底 
