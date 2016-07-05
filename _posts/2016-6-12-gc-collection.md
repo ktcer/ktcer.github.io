@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 垃圾收集算法 
-categories: Basis
+categories: Java
 description: 垃圾收集算法 
 keywords: Java
 ---
