@@ -1,0 +1,12 @@
+---
+layout: post
+title: Android设计模式目录 
+categories: DesignPattern
+description: Android设计模式目录 
+keywords: 设计模式
+---
+
+
+
+
+- **[一、Android设计模式源码解析之单例模式] (http://ktcer.github.io/2016/07/06/designpatterns-singleton)**
