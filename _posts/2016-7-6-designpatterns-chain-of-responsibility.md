@@ -1,9 +1,12 @@
-Android设计模式源码解析之责任链模式 
-====================================
-> 本文为 [Android 设计模式源码解析](https://github.com/simple-android-framework-exchange/android_design_patterns_analysis) 中责任链模式分析  
-> Android系统版本： 4.4.4        
-> 分析者：[Aige](https://github.com/AigeStudio)，分析状态：完成，校对者：[SM哥](https://github.com/bboyfeiyu)，校对状态：撒丫校对中  
- 
+---
+layout: post
+title: Android设计模式源码解析之责任链模式 
+categories: DesignPattern
+description: Android设计模式源码解析之责任链模式  
+keywords: 设计模式
+---
+
+
 ## 1. 模式介绍  
  
 ###  模式的定义
@@ -15,7 +18,7 @@ Android设计模式源码解析之责任链模式
  
 
 ## 2. UML类图
-![UML](https://github.com/simple-android-framework-exchange/android_design_patterns_analysis/blob/master/chain-of-responsibility/AigeStudio/images/chain-of-responsibility.jpg?raw=true)
+![UML](/images/posts/designpattern/chain-of-responsibility.jpg)
 
 ### 角色介绍
 Client：客户端
