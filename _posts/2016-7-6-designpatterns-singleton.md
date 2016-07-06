@@ -20,7 +20,7 @@ keywords: 设计模式
  
 
 ## 2. UML类图
-![url](images/posts/designpattern/singleton-mr.simple-uml.png)  
+![Singleton Pattern UML Class Diagram](/images/posts/designpattern/singletonuml.png)  
 
 ### 角色介绍
 * Client : 高层客户端。
@@ -129,7 +129,7 @@ public class Test {
 ```    
 
 输出结果如下 : 
-![result](images/posts/designpattern/singleton-mr.simple-result.png)    
+![result](/images/posts/designpattern/singletonresult.png)    
 
 可以看到, CEO两次输出的CEO对象的文字描述都是一样的，而VP、Staff类的对象都是不同的。即CEO是唯一实例，而其他类型都是不同的实例。这个实现的核心在于将CEO类的构造方法私有化，使得外部程序不能通过构造函数来构造CEO对象，而CEO类通过一个静态方法返回一个唯一的对象。
 
