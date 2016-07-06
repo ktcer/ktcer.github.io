@@ -1,8 +1,10 @@
-Android设计模式源码解析之适配器(Adapter)模式 
-====================================
-> 本文为 [Android 设计模式源码解析](https://github.com/simple-android-framework-exchange/android_design_patterns_analysis) 中 适配器模式 分析  
-> Android系统版本： 2.3        
-> 分析者：[Mr.Simple](https://github.com/bboyfeiyu)，分析状态：完成，校对者：[Mr.Simple](https://github.com/bboyfeiyu)，校对状态：完成 
+---
+layout: post
+title: Android设计模式源码解析之适配器(Adapter)模式
+categories: DesignPattern
+description: Android设计模式源码解析之适配器(Adapter)模式 
+keywords: 设计模式
+---
 
 
 
