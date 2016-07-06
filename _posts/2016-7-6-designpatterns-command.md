@@ -1,8 +1,12 @@
-Android设计模式源码解析之命令模式 
-====================================
-> 本文为 [Android 设计模式源码解析](https://github.com/simple-android-framework-exchange/android_design_patterns_analysis) 中 命令模式 分析  
-> Android系统版本： 2.3        
-> 分析者：[lijunhuayc](https://github.com/lijunhuayc)，分析状态：完成，校对者：[Mr.Simple](https://github.com/bboyfeiyu)，校对状态：未开始   
+---
+layout: post
+title: Android设计模式源码解析之命令模式 
+categories: DesignPattern
+description: Android设计模式源码解析之命令模式
+keywords: 设计模式
+---
+
+ 
 
 ## 1. 模式介绍  
  
@@ -16,7 +20,7 @@ Android设计模式源码解析之命令模式
 4. 系统需要将一组操作组合在一起，即支持宏命令。
 
 ## 2. UML类图
-![UML类图](images/lijunhuayc_uml.png) 
+![UML类图](/images/posts/designpattern/lijunhuayc_uml.png) 
 
 
 ### 角色介绍
@@ -290,7 +294,7 @@ ClientRole.java
 
 输出结果如下：       
 
-![运行结果图](images/lijunhuayc_result.png)
+![运行结果图](/images/posts/designpattern/lijunhuayc_result.png)
 
 ### 总结
 * 每一个命令都是一个操作：请求的一方发出请求，要求执行一个操作；接收的一方收到请求，并执行操作。
