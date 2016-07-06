@@ -1,9 +1,13 @@
-Android设计模式源码解析之单例模式 
-====================================
-> 本文为 [Android 设计模式源码解析](https://github.com/simple-android-framework-exchange/android_design_patterns_analysis) 中 单例模式 分析  
-> Android系统版本： 2.3        
-> 分析者：[Mr.Simple](https://github.com/bboyfeiyu)，分析状态：完成，校对者：[Mr.Simple](https://github.com/bboyfeiyu)，校对状态：完成   
- 
+---
+layout: post
+title: Android设计模式源码解析之单例模式 
+categories: DesignPattern
+description: Android设计模式源码解析之单例模式 
+keywords: 设计模式
+---
+
+# Android设计模式源码解析之单例模式 
+
 
 ## 1. 模式介绍  
  
@@ -16,7 +20,7 @@ Android设计模式源码解析之单例模式
  
 
 ## 2. UML类图
-![url](images/singleton-mr.simple-uml.png)  
+![url](images/posts/designpattern/singleton-mr.simple-uml.png)  
 
 ### 角色介绍
 * Client : 高层客户端。
@@ -125,7 +129,7 @@ public class Test {
 ```    
 
 输出结果如下 : 
-![result](images/singleton-mr.simple-result.png)    
+![result](images/posts/designpattern/singleton-mr.simple-result.png)    
 
 可以看到, CEO两次输出的CEO对象的文字描述都是一样的，而VP、Staff类的对象都是不同的。即CEO是唯一实例，而其他类型都是不同的实例。这个实现的核心在于将CEO类的构造方法私有化，使得外部程序不能通过构造函数来构造CEO对象，而CEO类通过一个静态方法返回一个唯一的对象。
 
