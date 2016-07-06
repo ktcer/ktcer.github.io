@@ -1,8 +1,12 @@
-Android设计模式源码解析之策略模式 
-====================================
-> 本文为 [Android 设计模式源码解析](https://github.com/simple-android-framework/android_design_patterns_analysis) 中策略模式分析  
-> Android系统版本：4.4.2         
-> 分析者：[GKerison](https://github.com/GKerison)，分析状态：已完成，校对者：[Mr.Simple](https://github.com/bboyfeiyu)，校对状态：完成   
+---
+layout: post
+title: Android设计模式源码解析之策略模式
+categories: DesignPattern
+description: Android设计模式源码解析之策略模式 
+keywords: 设计模式
+---
+
+
 
 ## 1. 模式介绍  
  
@@ -18,7 +22,7 @@ Android设计模式源码解析之策略模式
  
 
 ## 2. UML类图
-![url](images/strategy-kerison-uml.png)  
+![url](/images/posts/designpattern/strategy-kerison-uml.png)  
 
 ### 角色介绍
 * Context：用来操作策略的上下文环境。
@@ -59,7 +63,7 @@ Android设计模式源码解析之策略模式
 
 ### 使用策略模式
 UML类图
-![url](images/strategy-kerison-uml-calc.png)  
+![url](/images/posts/designpattern/strategy-kerison-uml-calc.png)  
 
 * Calc：进行计算操作的上下文环境。
 * Strategy : 计算操作的抽象。
@@ -165,7 +169,7 @@ UML类图
 	
 结果为：
 
-![url](images/strategy-kerison-uml-calc-result.png)  
+![url](/images/posts/designpattern//strategy-kerison-uml-calc-result.png)  
 
 ### 总结
 
@@ -295,11 +299,11 @@ UML类图
 
 很容易发现Android系统中在处理动画的时候会调用插值器中的getInterpolation(float input)方法来获取当前的时间点，依次来计算当前变化的情况。这就不得不说到Android中的插值器Interpolator，它的作用是根据时间流逝的百分比来计算出当前属性值改变的百分比，系统预置的有LinearInterpolator（线性插值器：匀速动画）、AccelerateDecelerateInterpolator（加速减速插值器：动画两头慢中间快）和DecelerateInterpolator（减速插值器：动画越来越慢）等，如图：
 
-![url](images/strategy-kerison-uml-android-interpolator.png) 
+![url](/images/posts/designpattern/strategy-kerison-uml-android-interpolator.png) 
 
 由于初期比较旧的版本采用的插值器是TimeInterpolator抽象，google采用了多加一层接口继承来实现兼容也不足为怪了。很显然策略模式在这里作了很好的实现，Interpolator就是处理动画时间的抽象，LinearInterpolator、CycleInterpolator等插值器就是具体的实现策略。插值器与Animation的关系图如下：
 
-![url](images/strategy-kerison-uml-android.png) 
+![url](/images/posts/designpattern/strategy-kerison-uml-android.png) 
 
 这里以LinearInterpolator和CycleInterpolator为例：
 
