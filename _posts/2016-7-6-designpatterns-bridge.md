@@ -1,8 +1,12 @@
-Android设计模式源码解析之桥接模式 
-====================================
-> 本文为 [Android 设计模式源码解析](https://github.com/simple-android-framework-exchange/android_design_patterns_analysis) 中 桥接模式 分析  
-> Android系统版本： 4.2         
-> 分析者：[shen0834](https://github.com/shen0834)，分析状态：未完成，校对者：[Mr.Simple](https://github.com/bboyfeiyu)，校对状态：完成   
+---
+layout: post
+title: Android设计模式源码解析之桥接模式
+categories: DesignPattern
+description: Android设计模式源码解析之桥接模式 
+keywords: 设计模式
+---
+
+
 
 ## 模式介绍
 
