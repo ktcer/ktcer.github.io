@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Android设计模式目录 
+title: Android 开发的一些常用设计模式目录 
 categories: DesignPattern
 description: Android设计模式目录 
 keywords: 设计模式
