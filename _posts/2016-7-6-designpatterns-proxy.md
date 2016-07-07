@@ -109,7 +109,7 @@ Binder一个很重要的作用是：将客户端的请求参数通过Parcel包�
 
 1. 先定义一个Binder接口
 
- ```
+```
 package com.ryg.design.manualbinder;
 
 import android.os.IBinder;
