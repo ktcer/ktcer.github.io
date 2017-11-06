@@ -11,11 +11,6 @@ keywords: android
 
 # Android MUPDF阅读器放大模糊优化
 
-### 目录
-
-
-[TOC]
-
 
 ---------
 
